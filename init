@@ -21,3 +21,7 @@ if game.PlaceId == 4545436299 then
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/32bitmeterpreterwastaken/LucidHub/main/petclicksim'), true))()
     return
 end
+if game.PlaceId == 6677985923 then
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/32bitmeterpreterwastaken/LucidHub/main/MillionareEmpiretycoon'), true))()
+    return
+end
