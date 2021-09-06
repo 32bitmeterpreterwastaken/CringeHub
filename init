@@ -1,9 +1,11 @@
 if not syn then
     print("lmfao use synapse kid")
-    player:Kick('use synapse x')
+    player:Kick()
 else
     print("Player Passed Syn Check")
 end
+
+
 
 print("Cringe Hub Init Loaded")
 
@@ -11,7 +13,8 @@ if game.PlaceId == 5852812686 then
     print("you have right game id")
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/watisdatikalikffffali/CringeHub/main/CCS'), true))()
     return
-elseif game.PlaceId == 6872265039 then
+end
+if game.PlaceId == 6872265039 then
     loadstring(game:HttpGet'https://dogix.wtf/scripts/noboline/5e70c1ae-e218-488a-a963-475b16ae3825')()
     return
 end
