@@ -10,10 +10,14 @@ end
 print("Lucid Hub Init Loaded")
 
 if game.PlaceId == 5852812686 then
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/watisdatikalikffffali/CringeHub/main/CCS'), true))()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/watisdatikalikffffali/LucidHub/main/CCS'), true))()
     return
 end
 if game.PlaceId == 6542731310 then
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/32bitmeterpreterwastaken/CringeHub/main/dogecoinminesim'), true))()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/32bitmeterpreterwastaken/LucidHub/main/dogecoinminesim'), true))()
+    return
+end
+if game.PlaceId == 4545436299 then
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/32bitmeterpreterwastaken/LucidHub/main/petclicksim'), true))()
     return
 end
