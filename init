@@ -1,5 +1,3 @@
-local player = game.Players.LocalPlayer
-
 if not syn then
     print("lmfao use synapse kid")
     player:Kick()
