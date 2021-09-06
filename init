@@ -7,7 +7,7 @@ end
 
 
 
-print("Cringe Hub Init Loaded")
+print("Lucid Hub Init Loaded")
 
 if game.PlaceId == 5852812686 then
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/watisdatikalikffffali/CringeHub/main/CCS'), true))()
