@@ -1,7 +1,4 @@
-print("this got through")
-
 if not syn then
-    print("lmfao use synapse kid")
     player:Kick()
 else
     print("Player Passed Syn Check")
