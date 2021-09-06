@@ -1,8 +1,4 @@
-if not syn then
-    player:Kick()
-else
-    print("Player Passed Syn Check")
-end
+print("Or does it")
 
 
 
