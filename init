@@ -1,5 +1,8 @@
+local plr = game.Players.LocalPlayer
+
 if not syn then
-    player:Kick()
+    print("lmfao use synapse kid")
+    plr:Kick('use synapse x')
 else
     print("Player Passed Syn Check")
 end
