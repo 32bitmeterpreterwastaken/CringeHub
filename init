@@ -1,6 +1,9 @@
-print("Or does it")
-
-
+if not syn then
+    print("lmfao use synapse kid")
+    player:Kick('use synapse x')
+else
+    print("Player Passed Syn Check")
+end
 
 print("Cringe Hub Init Loaded")
 
