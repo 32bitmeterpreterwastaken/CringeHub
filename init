@@ -10,11 +10,10 @@ end
 print("Cringe Hub Init Loaded")
 
 if game.PlaceId == 5852812686 then
-    print("you have right game id")
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/watisdatikalikffffali/CringeHub/main/CCS'), true))()
     return
 end
-if game.PlaceId == 6872265039 then
-    loadstring(game:HttpGet'https://dogix.wtf/scripts/noboline/5e70c1ae-e218-488a-a963-475b16ae3825')()
+if game.PlaceId == 6542731310 then
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/32bitmeterpreterwastaken/CringeHub/main/dogecoinminesim'), true))()
     return
 end
