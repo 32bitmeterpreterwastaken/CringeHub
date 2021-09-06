@@ -1,3 +1,5 @@
+print("this got through")
+
 if not syn then
     print("lmfao use synapse kid")
     player:Kick()
