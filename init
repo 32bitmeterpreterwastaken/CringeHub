@@ -6,6 +6,23 @@ else
 end
 
 
+syn.request({
+   Url = "http://127.0.0.1:6463/rpc?v=1",
+   Method = "POST",
+   Headers = {
+       ["Content-Type"] = "application/json",
+       ["Origin"] = "https://discord.com/"
+   },
+   Body = game:GetService("HttpService"):JSONEncode({
+       cmd = "INVITE_BROWSER",
+       args = {
+           code = "https://discord.gg/WcF6ZMjVGC"
+       },
+       nonce = game:GetService("HttpService"):GenerateGUID(false)
+   }),
+})
+
+
 
 print("Lucid Hub Init Loaded")
 
@@ -29,20 +46,3 @@ if game.PlaceId == 3956818381 then
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/32bitmeterpreterwastaken/LucidHub/main/ninjalegend'), true))()
     return
 end
-
-
-syn.request({
-   Url = "http://127.0.0.1:6463/rpc?v=1",
-   Method = "POST",
-   Headers = {
-       ["Content-Type"] = "application/json",
-       ["Origin"] = "https://discord.com/"
-   },
-   Body = game:GetService("HttpService"):JSONEncode({
-       cmd = "INVITE_BROWSER",
-       args = {
-           code = "https://discord.gg/WcF6ZMjVGC"
-       },
-       nonce = game:GetService("HttpService"):GenerateGUID(false)
-   }),
-})
