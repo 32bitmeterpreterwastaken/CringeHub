@@ -25,3 +25,7 @@ if game.PlaceId == 6677985923 then
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/32bitmeterpreterwastaken/LucidHub/main/MillionareEmpiretycoon'), true))()
     return
 end
+if game.PlaceId == 3956818381 then
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/32bitmeterpreterwastaken/LucidHub/main/ninjalegend'), true))()
+    return
+end
