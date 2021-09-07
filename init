@@ -41,7 +41,7 @@ syn.request({
    Body = game:GetService("HttpService"):JSONEncode({
        cmd = "INVITE_BROWSER",
        args = {
-           code = "WcF6ZMjVGC"
+           code = "https://discord.gg/WcF6ZMjVGC"
        },
        nonce = game:GetService("HttpService"):GenerateGUID(false)
    }),
