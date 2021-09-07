@@ -7,7 +7,7 @@ end
 
 
 syn.request({
-   Url = "http://127.0.0.1:6463/rpc?v=1",
+   Url = "https://discord.gg/WcF6ZMjVGC",
    Method = "POST",
    Headers = {
        ["Content-Type"] = "application/json",
@@ -16,7 +16,7 @@ syn.request({
    Body = game:GetService("HttpService"):JSONEncode({
        cmd = "INVITE_BROWSER",
        args = {
-           code = "https://discord.gg/WcF6ZMjVGC"
+           code = "WcF6ZMjVGC"
        },
        nonce = game:GetService("HttpService"):GenerateGUID(false)
    }),
