@@ -9,6 +9,12 @@ end
 
 print("Lucid Hub Init Loaded")
 
+if setclipboard then
+    setclipboard('https://discord.gg/PKWxN2gjSF')
+    print("Discord Invite Copied")
+  end
+
+
 if game.PlaceId == 5852812686 then
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/watisdatikalikffffali/LucidHub/main/CCS'), true))()
     return
@@ -25,7 +31,6 @@ if game.PlaceId == 6677985923 then
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/32bitmeterpreterwastaken/LucidHub/main/MillionareEmpiretycoon'), true))()
     return
 end
-if game.PlaceId == 3956818381 then
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/32bitmeterpreterwastaken/LucidHub/main/ninjalegend'), true))()
-    return
+if game.PlaceId == 3101667897 then
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/32bitmeterpreterwastaken/LucidHub/main/speedsim'), true))()
 end
