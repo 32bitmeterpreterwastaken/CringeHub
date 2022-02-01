@@ -1,8 +1,7 @@
 if not syn then
-    print("lmfao use synapse kid")
-    player:Kick()
+    game.Players.LocalPlayer:Kick("use synapse or gay")
 else
-    print("Player Passed Syn Check")
+    print("Player Passed Vibe Check")
 end
 
 
